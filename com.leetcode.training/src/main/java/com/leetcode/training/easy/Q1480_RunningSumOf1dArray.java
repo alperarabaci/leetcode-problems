@@ -19,4 +19,20 @@ public class Q1480_RunningSumOf1dArray {
         return totals;
     }
 	
+	/**
+	 * https://leetcode.com/problems/running-sum-of-1d-array/discuss/688613/Java-clean-and-simple-solution
+	 * what a shame :(
+	 * @param nums
+	 * @return
+	 */
+	public int[] runningSum2(int[] nums) {       
+		// modify the input array, adding n[i] with n[i-1]
+        for(int i = 1; i < nums.length; i++) {
+            nums[i] += nums[i-1];
+        }      
+		
+		// return the modified array
+        return nums;
+    }
+	
 }
