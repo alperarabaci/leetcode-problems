@@ -20,7 +20,7 @@ class Q1470_ShuffleTheArrayTest {
 	
     @ParameterizedTest
 	@MethodSource("provideData")
-	public void testRemoveDuplicates(int[] nums, int n, int[] output) throws Exception {
+	public void test(int[] nums, int n, int[] output) throws Exception {
 		int[] returnOutput = question.shuffle(nums, n);
 		assertThat(returnOutput).isEqualTo(output);
 	}
