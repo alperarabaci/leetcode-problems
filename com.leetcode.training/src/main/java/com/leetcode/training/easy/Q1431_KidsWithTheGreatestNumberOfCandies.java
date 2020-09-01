@@ -2,7 +2,11 @@ package com.leetcode.training.easy;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * https://leetcode.com/problems/kids-with-the-greatest-number-of-candies
+ * @author alper
+ *
+ */
 public class Q1431_KidsWithTheGreatestNumberOfCandies {
 
     public List<Boolean> kidsWithCandies(final int[] candies, final int extraCandies) {

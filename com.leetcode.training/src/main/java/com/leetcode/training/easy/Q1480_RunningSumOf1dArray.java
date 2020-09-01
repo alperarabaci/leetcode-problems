@@ -1,5 +1,10 @@
 package com.leetcode.training.easy;
 
+/**
+ * https://leetcode.com/problems/running-sum-of-1d-array/
+ * @author alper
+ *
+ */
 public class Q1480_RunningSumOf1dArray {
 
 	
