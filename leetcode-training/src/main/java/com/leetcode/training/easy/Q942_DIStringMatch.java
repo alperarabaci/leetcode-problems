@@ -1,5 +1,11 @@
 package com.leetcode.training.easy;
 
+/**
+ * https://leetcode.com/problems/di-string-match/
+ * Time Limit Exceeded :(
+ * @author alper
+ *
+ */
 public class Q942_DIStringMatch {
 
 	public int[] diStringMatch(String S) {
