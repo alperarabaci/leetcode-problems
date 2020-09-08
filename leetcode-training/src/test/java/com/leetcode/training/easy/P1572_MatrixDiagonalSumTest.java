@@ -9,30 +9,29 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-class Q561ArrayPartitionITest {
-
-	Q561ArrayPartitionI question;
+class P1572_MatrixDiagonalSumTest {
+	
+	P1572_MatrixDiagonalSum question;
 	
 	@BeforeEach
     void setUp() {
-    	question = new Q561ArrayPartitionI();
+    	question = new P1572_MatrixDiagonalSum();
     }
-	
+
 	@ParameterizedTest
 	@MethodSource("provideArray")
-	public void testArrayPairSum(int[] input, int output) throws Exception {
-		int returnOutput = question.arrayPairSum(input);
+	public void testDiagonalSum(int[][] input, int output) throws Exception {
+		int returnOutput = question.diagonalSum(input);
 		assertThat(returnOutput).isEqualTo(output);
 	}
 	
-	@ParameterizedTest
-	@MethodSource("provideArray")
 	private static Stream<Arguments> provideArray() {
 	    return Stream.of(	      
-	      Arguments.of(new int[] {1,4,3,2}, 4),
-	      Arguments.of(new int[] {1,2,3,4,5,6}, 9),
-	      Arguments.of(new int[] {10,1,1,6}, 7),
-	      Arguments.of(new int[] {10,1,0,6, -3, 20}, 8)
+	      Arguments.of(new int[][] {{1,2,3},{4,5,6}, {7,8,9}}, 25),
+	      Arguments.of(new int[][] {{1,1,1,1},{1,1,1,1}, {1,1,1,1}, {1,1,1,1}}, 8),
+	      Arguments.of(new int[][] {{5}}, 5),
+	      //extra:
+	      Arguments.of(new int[][] {{1,2},{4,5}}, 12)
 	    );
 	}
 

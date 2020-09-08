@@ -5,7 +5,7 @@ package com.leetcode.training.easy;
  * @author alper
  *
  */
-public class Q1475_FinalPricesWithASpecialDiscountinAShop {
+public class P1475_FinalPricesWithASpecialDiscountinAShop {
 
     public int[] finalPrices(final int[] prices) {
     	short i;

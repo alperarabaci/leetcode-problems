@@ -8,7 +8,7 @@ import java.util.List;
  * @author alper
  *
  */
-public class Q1441_BuildAnArrayWithStackOperations {
+public class P1441_BuildAnArrayWithStackOperations {
 
 	public static final String PUSH = "Push";
 	public static final String POP = "Pop";

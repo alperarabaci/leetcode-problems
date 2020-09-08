@@ -1,6 +1,6 @@
 package com.leetcode.training.easy;
 
-public class Q1572_MatrixDiagonalSum {
+public class P1572_MatrixDiagonalSum {
 
 	/**
 	 * https://leetcode.com/problems/matrix-diagonal-sum/

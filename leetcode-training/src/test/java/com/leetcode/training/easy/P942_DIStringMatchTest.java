@@ -10,16 +10,16 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-class Q942_DIStringMatchTest {
+class P942_DIStringMatchTest {
 
-	Q942_DIStringMatch question;
+	P942_DIStringMatch question;
 	
 
 	@ParameterizedTest
 	@MethodSource("provideArray")
 	public void testDiStringMatch() throws Exception {
 		String S = "DDI";
-		int[] elements = new Q942_DIStringMatch().diStringMatch(S);
+		int[] elements = new P942_DIStringMatch().diStringMatch(S);
 		assertThat(check(elements, S)).isTrue();
 	}
 	
