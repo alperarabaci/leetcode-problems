@@ -8,8 +8,8 @@ package com.leetcode.training.easy;
 public class Q1475_FinalPricesWithASpecialDiscountinAShop {
 
     public int[] finalPrices(final int[] prices) {
-    	short i = 0;
-    	short j = (short) (i+1);
+    	short i;
+    	short j;
     	for (i = 0; i < prices.length-1; i++) {
 			for (j = (short) (i+1); j < prices.length; j++) {
 				if(prices[j] <= prices[i]) {
