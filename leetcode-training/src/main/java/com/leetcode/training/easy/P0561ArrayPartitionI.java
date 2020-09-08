@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author alper
  *
  */
-public class P561ArrayPartitionI {
+public class P0561ArrayPartitionI {
 
     public int arrayPairSum(int[] nums) {
     	Arrays.sort( nums);

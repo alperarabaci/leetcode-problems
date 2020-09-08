@@ -6,7 +6,7 @@ package com.leetcode.training.easy;
  * @author alper
  *
  */
-public class P942_DIStringMatch {
+public class P0942_DIStringMatch {
 
 	public int[] diStringMatch(String S) {
 		int[] elements = new int[S.length()+1];
