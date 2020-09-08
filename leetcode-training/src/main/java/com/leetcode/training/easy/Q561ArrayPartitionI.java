@@ -1,7 +1,11 @@
 package com.leetcode.training.easy;
 
 import java.util.Arrays;
-
+/**
+ * https://leetcode.com/problems/array-partition-i/
+ * @author alper
+ *
+ */
 public class Q561ArrayPartitionI {
 
     public int arrayPairSum(int[] nums) {
