@@ -3,6 +3,11 @@ package com.leetcode.training.easy;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * https://leetcode.com/problems/build-an-array-with-stack-operations/
+ * @author alper
+ *
+ */
 public class Q1441_BuildAnArrayWithStackOperations {
 
 	public static final String PUSH = "Push";
