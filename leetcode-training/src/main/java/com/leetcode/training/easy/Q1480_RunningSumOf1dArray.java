@@ -5,7 +5,7 @@ package com.leetcode.training.easy;
  * @author alper
  *
  */
-public class P1480_RunningSumOf1dArray {
+public class Q1480_RunningSumOf1dArray {
 
 	
 	public int[] runningSum(int[] nums) {

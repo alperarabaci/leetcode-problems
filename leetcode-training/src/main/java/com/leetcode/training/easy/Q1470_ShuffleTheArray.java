@@ -5,7 +5,7 @@ package com.leetcode.training.easy;
  * @author alper
  *
  */
-public class P1470_ShuffleTheArray {
+public class Q1470_ShuffleTheArray {
 
     public int[] shuffle(final int[] nums, final int n) {
     	//print(nums, "INPUT");

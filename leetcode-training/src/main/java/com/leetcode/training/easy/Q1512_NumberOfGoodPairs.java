@@ -5,7 +5,7 @@ package com.leetcode.training.easy;
  * @author alper
  *
  */
-public class P1512_NumberOfGoodPairs {
+public class Q1512_NumberOfGoodPairs {
 
     public int numIdenticalPairs(final int[] nums) {
     	int goodPairs = 0;

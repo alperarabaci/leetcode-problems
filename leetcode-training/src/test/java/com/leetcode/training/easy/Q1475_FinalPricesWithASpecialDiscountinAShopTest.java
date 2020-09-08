@@ -11,13 +11,13 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-class P1475_FinalPricesWithASpecialDiscountinAShopTest {
+class Q1475_FinalPricesWithASpecialDiscountinAShopTest {
 
-	P1475_FinalPricesWithASpecialDiscountinAShop question;
+	Q1475_FinalPricesWithASpecialDiscountinAShop question;
 	
 	@BeforeEach
     void setUp() {
-    	question = new P1475_FinalPricesWithASpecialDiscountinAShop();
+    	question = new Q1475_FinalPricesWithASpecialDiscountinAShop();
     }
 	
 	@ParameterizedTest

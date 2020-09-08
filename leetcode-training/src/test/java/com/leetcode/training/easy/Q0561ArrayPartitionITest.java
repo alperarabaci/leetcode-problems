@@ -9,13 +9,13 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-class P0561ArrayPartitionITest {
+class Q0561ArrayPartitionITest {
 
-	P0561ArrayPartitionI question;
+	Q0561ArrayPartitionI question;
 	
 	@BeforeEach
     void setUp() {
-    	question = new P0561ArrayPartitionI();
+    	question = new Q0561ArrayPartitionI();
     }
 	
 	@ParameterizedTest

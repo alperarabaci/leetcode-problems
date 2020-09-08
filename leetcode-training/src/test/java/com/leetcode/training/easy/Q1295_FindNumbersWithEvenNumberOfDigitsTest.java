@@ -10,30 +10,32 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 /**
- * https://leetcode.com/problems/running-sum-of-1d-array/
+ * https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
  * @author alper
+ *
  */
-class P1480_RunningSumOf1dArrayTest {
+class Q1295_FindNumbersWithEvenNumberOfDigitsTest {
 
-	P1480_RunningSumOf1dArray question;
-		
-    @BeforeEach
+	Q1295_FindNumbersWithEvenNumberOfDigits question;
+	
+	@BeforeEach
     void setUp() {
-    	question = new P1480_RunningSumOf1dArray();
+    	question = new Q1295_FindNumbersWithEvenNumberOfDigits();
     }
 
 	@ParameterizedTest
 	@MethodSource("provideArray")
-	void test(int[] input, int[] output) {
-		int[] returnOutput = question.runningSum(input);
+	void test(int[] input, int output) {
+		int returnOutput = question.findNumbers(input);
 		assertThat(returnOutput).isEqualTo(output);
 	}
 	
 	private static Stream<Arguments> provideArray() {
 	    return Stream.of(
-	      Arguments.of(new int[] {1,2,3,4}, new int[] {1,3,6,10}),
-	      Arguments.of(new int[] {1,1,1,1,1}, new int[] {1,2,3,4,5}),
-	      Arguments.of(new int[] {3,1,2,10,1}, new int[] {3,4,6,16,17})
+	      Arguments.of(new int[] {12,345,2,6,7896}, 2),
+	      Arguments.of(new int[] {555,901,482,1771}, 1),
+	      Arguments.of(new int[] {1,2,3}, 0),
+	      Arguments.of(new int[] {111111,20,3333}, 3)
 	    );
 	}
 }

@@ -9,13 +9,13 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-class P1572_MatrixDiagonalSumTest {
+class Q1572_MatrixDiagonalSumTest {
 	
-	P1572_MatrixDiagonalSum question;
+	Q1572_MatrixDiagonalSum question;
 	
 	@BeforeEach
     void setUp() {
-    	question = new P1572_MatrixDiagonalSum();
+    	question = new Q1572_MatrixDiagonalSum();
     }
 
 	@ParameterizedTest

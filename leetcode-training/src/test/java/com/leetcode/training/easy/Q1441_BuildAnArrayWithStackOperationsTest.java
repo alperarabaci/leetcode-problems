@@ -10,13 +10,13 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-class P1441_BuildAnArrayWithStackOperationsTest {
+class Q1441_BuildAnArrayWithStackOperationsTest {
 
-	P1441_BuildAnArrayWithStackOperations question;
+	Q1441_BuildAnArrayWithStackOperations question;
 	
 	@BeforeEach
     void setUp() {
-    	question = new P1441_BuildAnArrayWithStackOperations();
+    	question = new Q1441_BuildAnArrayWithStackOperations();
     }
 	
 	@ParameterizedTest

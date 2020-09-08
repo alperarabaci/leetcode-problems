@@ -14,13 +14,13 @@ import org.junit.jupiter.params.provider.MethodSource;
  * https://leetcode.com/problems/kids-with-the-greatest-number-of-candies
  * @author alper
  */
-class P1431_KidsWithTheGreatestNumberOfCandiesTest {
+class Q1431_KidsWithTheGreatestNumberOfCandiesTest {
 
-	P1431_KidsWithTheGreatestNumberOfCandies question;
+	Q1431_KidsWithTheGreatestNumberOfCandies question;
 	
     @BeforeEach
     void setUp() {
-    	question = new P1431_KidsWithTheGreatestNumberOfCandies();
+    	question = new Q1431_KidsWithTheGreatestNumberOfCandies();
     }
 	
     @ParameterizedTest

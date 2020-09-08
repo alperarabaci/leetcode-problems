@@ -7,7 +7,7 @@ import java.util.List;
  * @author alper
  *
  */
-public class P1431_KidsWithTheGreatestNumberOfCandies {
+public class Q1431_KidsWithTheGreatestNumberOfCandies {
 
     public List<Boolean> kidsWithCandies(final int[] candies, final int extraCandies) {
     	int i;    	

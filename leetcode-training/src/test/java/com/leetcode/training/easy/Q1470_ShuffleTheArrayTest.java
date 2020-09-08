@@ -13,13 +13,13 @@ import org.junit.jupiter.params.provider.MethodSource;
  * https://leetcode.com/problems/shuffle-the-array/
  * @author alper
  */
-class P1470_ShuffleTheArrayTest {
+class Q1470_ShuffleTheArrayTest {
 
-	P1470_ShuffleTheArray question;
+	Q1470_ShuffleTheArray question;
 	
     @BeforeEach
     void setUp() {
-    	question = new P1470_ShuffleTheArray();
+    	question = new Q1470_ShuffleTheArray();
     }
 	
     @ParameterizedTest

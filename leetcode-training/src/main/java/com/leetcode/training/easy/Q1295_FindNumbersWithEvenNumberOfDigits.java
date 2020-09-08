@@ -5,7 +5,7 @@ package com.leetcode.training.easy;
  * @author alper
  *
  */
-public class P1295_FindNumbersWithEvenNumberOfDigits {
+public class Q1295_FindNumbersWithEvenNumberOfDigits {
 
     public int findNumbers(final int[] nums) {
     	int evenCount = 0;
